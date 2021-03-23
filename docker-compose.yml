@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  web:
+    image: 127.0.0.1:5000/stacknode
+    build: .
+    ports:
+      - "8888:3000"
