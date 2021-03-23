@@ -1,7 +1,7 @@
 # specify the node base image with your desired version node:<version>
 FROM node:14.16-alpine
 # 
-WORKDIR app/
+WORKDIR nodeapp/
 COPY server.js .
 COPY package.json .
 RUN npm install
